@@ -51,6 +51,10 @@
     "listed": true,
     "version": "2.0.0"
   },
+  "Boxed.Mapping": {
+    "listed": true,
+    "version": "1.2.0"
+  },
   "BugSplatDotNetStandard": {
     "listed": true,
     "version": "1.0.0"
@@ -239,6 +243,10 @@
     "listed": true,
     "version": "1.0.0"
   },
+  "CSharpFunctionalExtensions": {
+    "listed": true,
+    "version": "1.8.1"
+  },
   "CsvHelper": {
     "listed": true,
     "version": "3.0.0"
@@ -275,6 +283,14 @@
     "defineConstraints": [
       "UNITY_EDITOR"
     ]
+  },
+  "FluentValidation": {
+    "listed": true,
+    "version": "7.3.0"
+  },
+  "FluentValidation.DependencyInjectionExtensions": {
+    "listed": true,
+    "version": "8.2.2"
   },
   "GeneticSharp": {
     "listed": true,
@@ -331,6 +347,13 @@
       "UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN"
     ]
   },
+  "HarmonyX": {
+    "listed": true,
+    "version": "2.0.2",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
   "IDisposableAnalyzers": {
     "listed": true,
     "version": "1.0.0",
@@ -351,6 +374,10 @@
   "K4os.Compression.LZ4": {
     "listed": true,
     "version": "1.0.2"
+  },
+  "Kdl.NetStandard.x64": {
+    "listed": true,
+    "version": "2.0.0"
   },
   "LiteDB": {
     "listed": true,
@@ -379,6 +406,10 @@
   "MessagePack.Annotations": {
     "listed": true,
     "version": "2.0.323"
+  },
+  "MessagePipe": {
+    "listed": true,
+    "version": "0.0.1"
   },
   "Meziantou.Analyzer": {
     "listed": true,
@@ -702,6 +733,27 @@
     "listed": true,
     "version": "1.2.0"
   },
+  "Mono.Cecil": {
+    "listed": true,
+    "version": "0.11.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
+  "MonoMod.RuntimeDetour": {
+    "listed": true,
+    "version": "18.11.9.9",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
+  "MonoMod.Utils": {
+    "listed": true,
+    "version": "18.11.9.9",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
   "Moq": {
     "listed": true,
     "version": "4.11.0",
@@ -806,6 +858,10 @@
   "Scrutor": {
     "listed": true,
     "version": "3.0.1"
+  },
+  "Semver": {
+    "listed": true,
+    "version": "2.1.0"
   },
   "Serialization.NET": {
     "listed": true,
