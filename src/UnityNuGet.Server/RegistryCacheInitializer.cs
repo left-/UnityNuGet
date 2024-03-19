@@ -11,22 +11,13 @@ using Microsoft.Extensions.Options;
 
 namespace UnityNuGet.Server
 {
-    public class RegistryCacheInitializer : IHostedService
+    public class RegistryCacheInitializer(IConfiguration configuration, IHostEnvironment hostEnvironment, ILoggerFactory loggerFactory, IOptions<RegistryOptions> registryOptionsAccessor, RegistryCacheSingleton registryCacheSingleton) : IHostedService
     {
-        private readonly IConfiguration configuration;
-        private readonly IHostEnvironment hostEnvironment;
-        private readonly ILoggerFactory loggerFactory;
-        private readonly RegistryOptions registryOptions;
-        private readonly RegistryCacheSingleton registryCacheSingleton;
-
-        public RegistryCacheInitializer(IConfiguration configuration, IHostEnvironment hostEnvironment, ILoggerFactory loggerFactory, IOptions<RegistryOptions> registryOptionsAccessor, RegistryCacheSingleton registryCacheSingleton)
-        {
-            this.configuration = configuration;
-            this.hostEnvironment = hostEnvironment;
-            this.loggerFactory = loggerFactory;
-            registryOptions = registryOptionsAccessor.Value;
-            this.registryCacheSingleton = registryCacheSingleton;
-        }
+        private readonly IConfiguration configuration = configuration;
+        private readonly IHostEnvironment hostEnvironment = hostEnvironment;
+        private readonly ILoggerFactory loggerFactory = loggerFactory;
+        private readonly RegistryOptions registryOptions = registryOptionsAccessor.Value;
+        private readonly RegistryCacheSingleton registryCacheSingleton = registryCacheSingleton;
 
         public Task StartAsync(CancellationToken cancellationToken)
         {
@@ -40,11 +31,7 @@ namespace UnityNuGet.Server
                 var urls = configuration[WebHostDefaults.ServerUrlsKey];
 
                 // Select HTTPS in production, HTTP in development
-                var url = urls?.Split(';').FirstOrDefault(x => !x.StartsWith("https"));
-                if (url == null)
-                {
-                    throw new InvalidOperationException($"Unable to find a proper server URL from `{urls}`. Expecting a `http://...` URL in development");
-                }
+                var url = (urls?.Split(';').FirstOrDefault(x => !x.StartsWith("https"))) ?? throw new InvalidOperationException($"Unable to find a proper server URL from `{urls}`. Expecting a `http://...` URL in development");
 
                 // https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-environment-variables#dotnet_running_in_container-and-dotnet_running_in_containers
                 bool runningInContainer = configuration.GetValue<bool>("DOTNET_RUNNING_IN_CONTAINER");

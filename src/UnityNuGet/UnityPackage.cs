@@ -10,12 +10,15 @@ namespace UnityNuGet
     {
         public UnityPackage()
         {
-            Keywords = new List<string>();
-            Dependencies = new Dictionary<string, string>();
+            Keywords = [];
+            Dependencies = [];
         }
 
         [JsonProperty("name")]
         public string? Name { get; set; }
+
+        [JsonProperty("displayName")]
+        public string? DisplayName { get; set; }
 
         [JsonProperty("version")]
         public string? Version { get; set; }

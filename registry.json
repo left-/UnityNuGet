@@ -3,6 +3,71 @@
     "listed": true,
     "version": "1.4.1"
   },
+  "Akka.Analyzers": {
+    "listed": true,
+    "version": "0.1.1",
+    "analyzer": true
+  },
+  "Akka.Cluster": {
+    "listed": true,
+    "version": "1.4.1"
+  },
+  "Akka.Cluster.Hosting": {
+    "listed": true,
+    "version": "0.1.0"
+  },
+  "Akka.Cluster.Sharding": {
+    "listed": true,
+    "version": "1.4.1"
+  },
+  "Akka.Cluster.Tools": {
+    "listed": true,
+    "version": "1.4.1"
+  },
+  "Akka.Coordination": {
+    "listed": true,
+    "version": "1.4.4"
+  },
+  "Akka.DependencyInjection": {
+    "listed": true,
+    "version": "1.4.15"
+  },
+  "Akka.DistributedData": {
+    "listed": true,
+    "version": "1.4.1"
+  },
+  "Akka.DistributedData.LightningDB": {
+    "listed": true,
+    "version": "1.4.7"
+  },
+  "Akka.Hosting": {
+    "listed": true,
+    "version": "0.1.0"
+  },
+  "Akka.Persistence": {
+    "listed": true,
+    "version": "1.4.1"
+  },
+  "Akka.Persistence.Hosting": {
+    "listed": true,
+    "version": "0.3.3"
+  },
+  "Akka.Remote": {
+    "listed": true,
+    "version": "1.4.1"
+  },
+  "Akka.Remote.Hosting": {
+    "listed": true,
+    "version": "0.1.0"
+  },
+  "Antlr4.Runtime.Standard": {
+    "listed": true,
+    "version": "4.9.1"
+  },
+  "Args": {
+    "listed": true,
+    "version": "1.2.0"
+  },
   "Asmodat.Standard.SSH.NET": {
     "listed": true,
     "version": "[1.0.0,1.0.0.1]"
@@ -18,7 +83,7 @@
   "AsyncKeyedLock": {
     "listed": true,
     "version": "1.0.0"
-  },  
+  },
   "AutoMapper": {
     "listed": true,
     "version": "7.0.1"
@@ -33,15 +98,15 @@
   },
   "AWSSDK.Core": {
     "listed": true,
-    "version": "3.3.100"
+    "version": "3.7.302.8"
   },
   "AWSSDK.S3": {
     "listed": true,
-    "version": "3.3.100"
+    "version": "3.7.302.8"
   },
   "AWSSDK.SecurityToken": {
     "listed": true,
-    "version": "3.3.100"
+    "version": "3.7.302.8"
   },
   "Ben.Demystifier": {
     "listed": true,
@@ -72,7 +137,7 @@
   },
   "CLSS.Constants.CollectionPool": {
     "listed": true,
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "CLSS.Constants.DefaultRandom": {
     "listed": true,
@@ -92,7 +157,7 @@
   },
   "CLSS.ExtensionMethods.IComparable.ClampToRange": {
     "listed": true,
-    "version": "1.0.0"
+    "version": "1.3.0"
   },
   "CLSS.ExtensionMethods.IComparable.InRange": {
     "listed": true,
@@ -192,7 +257,7 @@
   },
   "CLSS.Types.AgnosticObjectPool": {
     "listed": true,
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "CLSS.Types.EventLatch": {
     "listed": true,
@@ -239,17 +304,41 @@
     "listed": true,
     "version": "1.0.0"
   },
+  "CoreAudio": {
+    "listed": true,
+    "version": "1.1.0"
+  },
   "Coroutine.NET": {
     "listed": true,
     "version": "1.0.0"
   },
   "CSharpFunctionalExtensions": {
     "listed": true,
-    "version": "1.8.1"
+    "version": "2.40.3"
   },
   "CsvHelper": {
     "listed": true,
     "version": "3.0.0"
+  },
+  "Dapplo.Log": {
+    "listed": true,
+    "version": "1.3.17"
+  },
+  "Dapplo.Windows.Common": {
+    "listed": true,
+    "version": "1.0.26"
+  },
+  "Dapplo.Windows.Input": {
+    "listed": true,
+    "version": "1.0.26"
+  },
+  "Dapplo.Windows.Messages": {
+    "listed": true,
+    "version": "1.0.26"
+  },
+  "Dapplo.Windows.User32": {
+    "listed": true,
+    "version": "1.0.26"
   },
   "Dev.ComradeVanti.Nothing": {
     "listed": true,
@@ -259,9 +348,33 @@
     "listed": true,
     "version": "1.1.0"
   },
+  "DotNetty.Buffers": {
+    "listed": true,
+    "version": "0.7.0"
+  },
+  "DotNetty.Codecs": {
+    "listed": true,
+    "version": "0.7.0"
+  },
+  "DotNetty.Common": {
+    "listed": true,
+    "version": "0.7.0"
+  },
+  "DotNetty.Handlers": {
+    "listed": true,
+    "version": "0.7.0"
+  },
+  "DotNetty.Transport": {
+    "listed": true,
+    "version": "0.7.0"
+  },
   "Eflatun.Expansions": {
     "listed": true,
     "version": "0.0.1"
+  },
+  "Elasticsearch.Net": {
+    "listed": true,
+    "version": "6.3.0"
   },
   "ErrorProne.NET.CoreAnalyzers": {
     "listed": true,
@@ -272,6 +385,20 @@
     "listed": true,
     "version": "0.1.2",
     "analyzer": true
+  },
+  "ExcelDataReader": {
+    "listed": true,
+    "version": "3.0.0",
+    "analyzer": true
+  },
+  "ExcelDataReader.DataSet": {
+    "listed": true,
+    "version": "3.0.0",
+    "analyzer": true
+  },
+  "ExcelNumberFormat": {
+    "listed": false,
+    "version": "1.0.6"
   },
   "FastEnum": {
     "listed": true,
@@ -302,7 +429,7 @@
   },
   "Google.Apis.AndroidPublisher.v3": {
     "listed": true,
-    "version": "1.35.1.1312"
+    "version": "1.66.0.3324"
   },
   "Google.Apis.Auth": {
     "listed": true,
@@ -311,6 +438,10 @@
   "Google.Apis.Core": {
     "listed": true,
     "version": "1.35.0"
+  },
+  "Google.FlatBuffers": {
+    "listed": true,
+    "version": "22.9.24"
   },
   "Google.Protobuf": {
     "listed": true,
@@ -354,6 +485,18 @@
       "UNITY_EDITOR"
     ]
   },
+  "HtmlAgilityPack": {
+    "listed": true,
+    "version": "1.11.24"
+  },
+  "Hyperion": {
+    "listed": true,
+    "version": "0.9.9"
+  },
+  "IdentityModel": {
+    "listed": true,
+    "version": "2.13.0"
+  },
   "IDisposableAnalyzers": {
     "listed": true,
     "version": "1.0.0",
@@ -378,6 +521,14 @@
   "Kdl.NetStandard.x64": {
     "listed": true,
     "version": "2.0.0"
+  },
+  "LightningDB": {
+    "listed": true,
+    "version": "0.11.0"
+  },
+  "LightningDB.Vendored.Akka": {
+    "listed": true,
+    "version": "0.14.0"
   },
   "LiteDB": {
     "listed": true,
@@ -468,10 +619,33 @@
     "listed": true,
     "version": "1.0.0"
   },
+  "Microsoft.Bcl.TimeProvider": {
+    "listed": true,
+    "version": "8.0.0"
+  },
+  "Microsoft.CodeAnalysis.Analyzers": {
+    "listed": true,
+    "version": "3.0.0",
+    "analyzer": true
+  },
   "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
     "listed": true,
     "version": "2.9.0",
     "analyzer": true
+  },
+  "Microsoft.CodeAnalysis.Common": {
+    "listed": true,
+    "version": "3.0.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
+  "Microsoft.CodeAnalysis.CSharp": {
+    "listed": true,
+    "version": "3.0.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
   },
   "Microsoft.CodeAnalysis.NetAnalyzers": {
     "listed": true,
@@ -587,6 +761,14 @@
     "listed": true,
     "version": "3.0.0"
   },
+  "Microsoft.Extensions.Diagnostics": {
+    "listed": true,
+    "version": "8.0.0"
+  },
+  "Microsoft.Extensions.Diagnostics.Abstractions": {
+    "listed": true,
+    "version": "8.0.0"
+  },
   "Microsoft.Extensions.Features": {
     "listed": true,
     "version": "6.0.0"
@@ -683,6 +865,26 @@
     "listed": true,
     "version": "2.0.0"
   },
+  "Microsoft.IdentityModel.Abstractions": {
+    "listed": true,
+    "version": "6.18.0"
+  },
+  "Microsoft.IdentityModel.JsonWebTokens": {
+    "listed": true,
+    "version": "5.3.0"
+  },
+  "Microsoft.IdentityModel.Logging": {
+    "listed": true,
+    "version": "5.3.0"
+  },
+  "Microsoft.IdentityModel.Tokens": {
+    "listed": true,
+    "version": "5.3.0"
+  },
+  "Microsoft.IO.RecyclableMemoryStream": {
+    "listed": true,
+    "version": "1.4.0"
+  },
   "Microsoft.NET.StringTools": {
     "listed": true,
     "version": "[1.0.0]"
@@ -713,6 +915,10 @@
     "listed": true,
     "version": "1.0.8"
   },
+  "MiniExcel":{
+    "listed": true,
+    "version": "0.2.0"
+  },
   "MongoDB.Bson": {
     "listed": true,
     "version": "2.11.0"
@@ -736,6 +942,27 @@
   "Mono.Cecil": {
     "listed": true,
     "version": "0.11.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
+  "MonoMod.Backports": {
+    "listed": true,
+    "version": "1.0.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
+  "MonoMod.Core": {
+    "listed": true,
+    "version": "1.0.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
+  "MonoMod.ILHelpers": {
+    "listed": true,
+    "version": "1.0.0",
     "defineConstraints": [
       "UNITY_EDITOR"
     ]
@@ -765,6 +992,22 @@
     "listed": true,
     "version": "2.7.0"
   },
+  "MumbleSharp": {
+    "listed": true,
+    "version": "2.0.0"
+  },
+  "NAudio.Core": {
+    "listed": true,
+    "version": "2.0.0"
+  },
+  "NAudio.Wasapi": {
+    "listed": true,
+    "version": "2.0.0"
+  },
+  "NAudio.WinMM": {
+    "listed": true,
+    "version": "2.0.0"
+  },
   "NeoSmart.Caching.Sqlite": {
     "listed": true,
     "version": "0.1.0"
@@ -772,6 +1015,10 @@
   "Newtonsoft.Json": {
     "listed": true,
     "version": "11.0.1"
+  },
+  "NLog": {
+    "listed": true,
+    "version": "4.5.0"
   },
   "NSubstitute": {
     "listed": true,
@@ -790,9 +1037,33 @@
     "version": "[2.0.0,3.3.0]",
     "analyzer": true
   },
+  "ObservableCollections": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "ObservableCollections.R3": {
+    "listed": true,
+    "version": "2.0.0"
+  },
+  "OneOf": {
+    "listed": true,
+    "version": "3.0.205"
+  },
+  "OpenSearch.Net": {
+    "listed": true,
+    "version": "1.0.0"
+  },
   "Polly": {
     "listed": true,
     "version": "6.0.1"
+  },
+  "Polly.Contrib.WaitAndRetry": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "Polly.Core": {
+    "listed": true,
+    "version": "8.0.0"
   },
   "Polly.Extensions.Http": {
     "listed": true,
@@ -822,9 +1093,25 @@
     "listed": true,
     "version": "1.0.177"
   },
+  "pythonnet": {
+    "listed": true,
+    "version": "3.0.0"
+  },
   "QuikGraph": {
     "listed": true,
     "version": "1.0.0"
+  },
+  "R3": {
+    "listed": true,
+    "version": "0.0.3"
+  },
+  "ReactiveProperty": {
+    "listed": true,
+    "version": "5.0.0"
+  },
+  "ReactiveProperty.Core": {
+    "listed": true,
+    "version": "7.0.0"
   },
   "RestSharp": {
     "listed": true,
@@ -842,6 +1129,13 @@
     "listed": true,
     "version": "0.1.0"
   },
+  "RichardSzalay.MockHttp": {
+    "listed": true,
+    "version": "5.0.0",
+    "defineConstraints": [
+      "UNITY_EDITOR"
+    ]
+  },
   "Robots": {
     "listed": true,
     "version": "1.1.7"
@@ -849,6 +1143,26 @@
   "Roslynator.Analyzers": {
     "listed": true,
     "version": "1.2.0",
+    "analyzer": true
+  },
+  "Roslynator.CodeAnalysis.Analyzers": {
+    "listed": true,
+    "version": "1.0.0",
+    "analyzer": true
+  },
+  "Roslynator.CodeFixes": {
+    "listed": true,
+    "version": "4.10.0",
+    "analyzer": true
+  },
+  "Roslynator.Formatting.Analyzers": {
+    "listed": true,
+    "version": "1.0.0",
+    "analyzer": true
+  },
+  "Roslynator.Refactorings": {
+    "listed": true,
+    "version": "4.10.0",
     "analyzer": true
   },
   "Scriban": {
@@ -875,6 +1189,14 @@
     "listed": true,
     "version": "0.9.0"
   },
+  "Serilog.Enrichers.Memory": {
+    "listed": true,
+    "version": "1.0.4"
+  },
+  "Serilog.Expressions": {
+    "listed": true,
+    "version": "3.2.1"
+  },
   "Serilog.Extensions.Hosting": {
     "listed": true,
     "version": "2.0.0"
@@ -886,6 +1208,14 @@
   "Serilog.Formatting.Compact": {
     "listed": true,
     "version": "1.1.0"
+  },
+  "Serilog.Formatting.Elasticsearch": {
+    "listed": true,
+    "version": "8.0.0"
+  },
+  "Serilog.Formatting.OpenSearch": {
+    "listed": true,
+    "version": "1.0.0"
   },
   "Serilog.Settings.Configuration": {
     "listed": true,
@@ -903,6 +1233,10 @@
     "listed": true,
     "version": "1.0.1"
   },
+  "Serilog.Sinks.Elasticsearch": {
+    "listed": true,
+    "version": "8.0.0"
+  },
   "Serilog.Sinks.File": {
     "listed": true,
     "version": "4.1.0"
@@ -910,6 +1244,14 @@
   "Serilog.Sinks.Graylog": {
     "listed": true,
     "version": "1.1.89"
+  },
+  "Serilog.Sinks.OpenSearch": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "Serilog.Sinks.PeriodicBatching": {
+    "listed": true,
+    "version": "2.2.0"
   },
   "Serilog.Sinks.Trace": {
     "listed": true,
@@ -927,7 +1269,15 @@
     "listed": true,
     "version": "1.0.0"
   },
+  "SixLabors.Fonts": {
+    "listed": true,
+    "version": "1.0.0"
+  },
   "SixLabors.ImageSharp": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "SixLabors.ImageSharp.Drawing": {
     "listed": true,
     "version": "1.0.0"
   },
@@ -985,7 +1335,15 @@
     "listed": true,
     "version": "1.4.1"
   },
+  "SunCalcNet": {
+    "listed": true,
+    "version": "1.1.0"
+  },
   "System.Buffers": {
+    "listed": true,
+    "version": "4.4.0"
+  },
+  "System.CodeDom": {
     "listed": true,
     "version": "4.4.0"
   },
@@ -1013,9 +1371,21 @@
     "listed": true,
     "version": "5.0.0"
   },
+  "System.IdentityModel.Tokens.Jwt": {
+    "listed": true,
+    "version": "5.3.0"
+  },
   "System.Interactive.Async": {
     "listed": true,
     "version": "3.2.0"
+  },
+  "System.IO.Abstractions": {
+    "listed": true,
+    "version": "2.1.0.201"
+  },
+  "System.IO.FileSystem.AccessControl": {
+    "listed": true,
+    "version": "4.4.0"
   },
   "System.IO.Pipelines": {
     "listed": true,
@@ -1024,6 +1394,10 @@
   "System.Linq.Async": {
     "listed": true,
     "version": "4.0.0"
+  },
+  "System.Management": {
+    "listed": true,
+    "version": "4.5.0"
   },
   "System.Memory": {
     "listed": true,
@@ -1040,6 +1414,10 @@
   "System.Private.ServiceModel": {
     "listed": false,
     "version": "4.6.0"
+  },
+  "System.Reactive": {
+    "listed": true,
+    "version": "4.0.0"
   },
   "System.Reflection.DispatchProxy": {
     "listed": true,
@@ -1068,6 +1446,11 @@
   "System.Runtime.CompilerServices.Unsafe": {
     "listed": true,
     "version": "4.4.0"
+  },
+  "System.Runtime.InteropServices.WindowsRuntime": {
+    "listed": false,
+    "version": "4.3.0",
+    "ignore": true
   },
   "System.Security.AccessControl": {
     "listed": true,
@@ -1101,6 +1484,10 @@
     "listed": true,
     "version": "4.4.0"
   },
+  "System.ServiceModel.Syndication": {
+    "listed": true,
+    "version": "4.5.0"
+  },
   "System.Text.Encoding.CodePages": {
     "listed": false,
     "version": "4.4.0"
@@ -1121,6 +1508,10 @@
     "listed": true,
     "version": "7.0.0"
   },
+  "System.Threading.Tasks.Dataflow": {
+    "listed": true,
+    "version": "4.8.0"
+  },
   "System.Threading.Tasks.Extensions": {
     "listed": false,
     "version": "4.4.0"
@@ -1129,6 +1520,14 @@
     "listed": true,
     "version": "0.8.6"
   },
+  "TestableIO.System.IO.Abstractions": {
+    "listed": true,
+    "version": "17.2.26"
+  },
+  "TestableIO.System.IO.Abstractions.Wrappers": {
+    "listed": true,
+    "version": "17.2.26"
+  },
   "UniRxAnalyzer": {
     "listed": true,
     "version": "1.0.4.1",
@@ -1136,15 +1535,15 @@
   },
   "UnitsNet": {
     "listed": true,
-    "version": "4.0.0"
+    "version": "5.28.0"
   },
   "UnitsNet.NumberExtensions": {
     "listed": true,
-    "version": "4.44.0"
+    "version": "5.28.0"
   },
   "UnitsNet.Serialization.JsonNet": {
     "listed": true,
-    "version": "4.0.0"
+    "version": "5.28.0"
   },
   "Validation": {
     "listed": true,
@@ -1169,6 +1568,14 @@
   "WebDav.Client": {
     "listed": true,
     "version": "2.3.0"
+  },
+  "Websocketsharp.core": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "YamlDotNet": {
+    "listed": true,
+    "version": "12.0.0"
   },
   "ZstdSharp.Port": {
     "listed": true,
