@@ -140,7 +140,13 @@ namespace UnityNuGet.Tests
                 @"Dapplo.Windows.Messages",
                 @"Dapplo.Windows.User32",
                 // It has too many versions, the minimum version is lifted so as not to process so many versions
-                @"UnitsNet.*"
+                @"UnitsNet.*",
+                // Most versions < 1.7.0 don't target .netstandard2.0
+                @"XLParser",
+                // Versions < 1.3.1 has dependencies on PolySharp
+                @"Utf8StringInterpolation",
+                // Versions 2.0.0 has dependencies on Utf8StringInterpolation 1.3.0
+                @"ZLogger"
             };
 
             var excludedPackagesRegex = new Regex(@$"^{string.Join('|', excludedPackages)}$");
